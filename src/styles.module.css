@@ -1,9 +1,63 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.mainImg{
+  max-width: 80vw;
+  max-height: 99.5vh;
+  animation: spin 10s linear  infinite;
+  
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+
+}
+.title{
+  position: absolute;
+  animation: lost 3s forwards  ;
+  z-index: 100;
+  font-size: 40px;
+  left: 20vw;
+  color: white;
+}
+.title2{
+  right: 20vw;
+  position: absolute;
+  animation: lost 3s forwards  ;
+  z-index: 100;
+  color: white;
+  font-size: 40px;
+}
+
+
+@keyframes lost { 0% {  top:-15vh; } 50%{  top:15vh} 100% {top:-15vh}}
+
+
+.face{
+  top: 6vh;
+  position: absolute;
+  animation-delay: 100ms;
+  width: 420px;
+  height: 90vh;
+  animation: spin 10s linear  infinite;
+}
+
+
+@keyframes spin { 0% { -webkit-transform: rotate(20deg),translateX(-30px);; transform:rotate(20deg); } 50%{ transform:rotate(-20deg);} 100% { -webkit-transform: rotate(20deg); }}
+
+@media screen and (max-width: 327px) {
+  .face{
+    top:19vh;
+  width: 370px;
+  height: 60vh;
+  }
+}
+
+@media screen and (max-width: 235px) {
+  .face{
+  width: 290px;
+  }
 }
