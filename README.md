@@ -15,15 +15,20 @@ npm install --save 404-page
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from '404-page'
+import LostPage from '404-page'
 import '404-page/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const Example = () => {
+  
+    return <LostPage face={ optional your face image (default is my face) } backgroundColor={ optional (default is space)} audio={ optional your audio} />
+  
 }
 ```
+## Optional parameters:
+1. face > default is my face image with your face. 
+2. backgroundColor > default is space  you can choose from cool linear gradient backgrounds (purple,black and blue). 
+3. audio > audio to play in your 404 page. 
+
 
 ## License
 

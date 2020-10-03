@@ -5,7 +5,7 @@ import imageWithoutFace from "notfound2.png"
 import space from "space-bg.jpg"
 
 
-export const ExampleComponent = ({ backgroundColor , face, audio }) => {
+export const LostPage = ({ backgroundColor , face, audio }) => {
   const checkBg = ()=>{
     switch(backgroundColor){
       case "purple":
