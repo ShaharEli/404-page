@@ -29,6 +29,8 @@ const Example = () => {
 2. backgroundColor > default is space  you can choose from cool linear gradient backgrounds (purple,black and blue). 
 3. audio > audio to play in your 404 page. 
 
+## Some preview:
+![alt text](preview.png)
 
 ## License
 
