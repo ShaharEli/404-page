@@ -13,9 +13,9 @@ npm install --save 404-page
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import LostPage from '404-page'
+import {LostPage} from '404-page'
 import '404-page/dist/index.css'
 
 const Example = () => {
