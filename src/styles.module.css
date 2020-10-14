@@ -1,8 +1,6 @@
 /* add css module styles here (optional) */
 
 .mainImg{
-  max-width: 80vw;
-  max-height: 99.5vh;
   animation: spin 10s linear  infinite;
   
 }
@@ -37,27 +35,30 @@
 
 
 .face{
-  top: 6vh;
   position: absolute;
+  top: 43%;
+  right: 45%;
   animation-delay: 100ms;
   width: 80px;
-  height: 80px;
+  height: 100px;
   animation: spin 10s linear  infinite;
+}
+
+.images{
+  height: fit-content;
+  position: relative;
+  
 }
 
 
 @keyframes spin { 0% { -webkit-transform: rotate(20deg),translateX(-30px);; transform:rotate(20deg); } 50%{ transform:rotate(-20deg);} 100% { -webkit-transform: rotate(20deg); }}
-
-@media screen and (max-width: 327px) {
-  .face{
-    top:19vh;
-  width: 370px;
-  height: 60vh;
+ 
+@media screen and (max-width: 487px) {
+  .mainImg{
+    width:80vw
   }
-}
-
-@media screen and (max-width: 235px) {
   .face{
-  width: 290px;
+    width:15vw;
+    height:20vw ;
   }
 }

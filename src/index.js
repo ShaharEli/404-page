@@ -53,10 +53,10 @@ export const LostPage = ({ backgroundColor , face, audio }) => {
       }
       {
         face?
-        <React.Fragment>
-        <img src={imageWithoutFace} className={styles.mainImg} />
-        <img src={face} className={styles.face} />
-        </React.Fragment>
+        <div className={styles.images}>
+          <img src={imageWithoutFace} className={styles.mainImg} />
+          <img src={face}  className={styles.face} />
+        </div>
         :
         <img src={image} className={styles.mainImg} />
       }
