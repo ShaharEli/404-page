@@ -40,8 +40,8 @@
   top: 6vh;
   position: absolute;
   animation-delay: 100ms;
-  width: 420px;
-  height: 90vh;
+  width: 80px;
+  height: 80px;
   animation: spin 10s linear  infinite;
 }
 
