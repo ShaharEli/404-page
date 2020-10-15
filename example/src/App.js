@@ -4,7 +4,7 @@ import { LostPage } from '404-page'
 import '404-page/dist/index.css'
 
 const App = () => {
-  return <LostPage  />
+  return <LostPage />
 }
 
 export default App
